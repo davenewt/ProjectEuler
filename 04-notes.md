@@ -57,6 +57,6 @@ I then sorted the resulting array into another array, being careful to use a [co
 
 ## Potential Improvements
 
-It would be good to figure out how to do the initial calculation of `a * b` in order of decreasing sum (`a + b`), so that when the first palindrome is found, we know it's the largest we're going to find.
+- [ ] It would be good to figure out how to do the initial calculation of `a * b` in order of decreasing sum (`a + b`), so that when the first palindrome is found, we know it's the largest we're going to find. Not yet wrapped my head around how to do this!
 
-Not yet wrapped my head around how to do this!
+- [ ] My method of deciding if a number is palindromic is over-complicated! I should just check if the number matches its reverse form!
