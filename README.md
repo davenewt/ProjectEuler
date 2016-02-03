@@ -8,7 +8,7 @@ All problems are listed [here.](https://projecteuler.net/archives)
 Thank you for visiting (and not cheating).
 
 ## Progess
-[x][Multiples of 3 and 5](https://projecteuler.net/problem=1) SOLVED :white_check_mark:
-[x][Even Fibonnaci Numbers](https://projecteuler.net/problem=2) SOLVED :white_check_mark:
-[x][Largest Prime Factor](https://projecteuler.net/problem=3) SOLVED :white_check_mark:
-[ ][Largest Palindrome Product](https://projecteuler.net/problem=4)
+- [x][Multiples of 3 and 5](https://projecteuler.net/problem=1) SOLVED :white_check_mark:
+- [x][Even Fibonnaci Numbers](https://projecteuler.net/problem=2) SOLVED :white_check_mark:
+- [x][Largest Prime Factor](https://projecteuler.net/problem=3) SOLVED :white_check_mark:
+- [ ][Largest Palindrome Product](https://projecteuler.net/problem=4)
