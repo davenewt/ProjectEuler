@@ -1,8 +1,14 @@
 # ProjectEuler
-Herewith, a growing archive of my solutions to the problems posed at [Project Euler](http://projecteuler.net)
+Herewith, a growing archive of my solutions to the problems posed at [Project Euler.](http://projecteuler.net)
 
-:red_circle: **IMPORTANT:** You shouldn't be here to cheat. Solve the problems yourself! :hurtrealbad:
+:red_circle: You shouldn't be here to cheat! :unamused:
 
-- All problems are listed [here](https://projecteuler.net/archives)
+All problems are listed [here.](https://projecteuler.net/archives)
 
-Thanks for visiting, and not cheating.
+Thank you for visiting (and not cheating).
+
+## Progess
+[x][Multiples of 3 and 5](https://projecteuler.net/problem=1) SOLVED :white_check_mark:
+[x][Even Fibonnaci Numbers](https://projecteuler.net/problem=2) SOLVED :white_check_mark:
+[x][Largest Prime Factor](https://projecteuler.net/problem=3) SOLVED :white_check_mark:
+[ ][Largest Palindrome Product](https://projecteuler.net/problem=4)
