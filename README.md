@@ -8,7 +8,7 @@ All problems are listed [here.](https://projecteuler.net/archives)
 Thank you for visiting (and not cheating).
 
 ## Currently Investigating
-5. [Smallest Multiple](https://projecteuler.net/problem=5)
+Problem 5: [Smallest Multiple](https://projecteuler.net/problem=5)
 
 ## Previously Solved
 1. [Multiples of 3 and 5](https://projecteuler.net/problem=1) :white_check_mark:
