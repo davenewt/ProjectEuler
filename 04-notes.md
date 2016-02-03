@@ -6,6 +6,8 @@
 
 > Find the largest palindrome made from the product of two 3-digit numbers.
 
+[This problem's page at ProjectEuler.net](https://projecteuler.net/problem=4)
+
 ## Workings
 
 ### Method 1
