@@ -39,8 +39,8 @@ Investigating 996x999 995004 <--- this is larger than the result above! Won't wo
 This got me thinking along another tack. Doing the calculations `a * b` in decreasing order of the **sum** of the two numbers (`a + b`) should work:
 
 ```
-Results from first batch of calculations re-ordered
-depending on their product  ------\/
+Results from first batch of calculations
+re-ordered depending on their SUM :arrow_down:
 
 Investigating 999x999 998001 --- 1998
 Investigating 998x999 997002 --- 1997
