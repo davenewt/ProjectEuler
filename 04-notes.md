@@ -8,6 +8,8 @@
 
 ## Workings
 
+### Method 1
+
 Started by thinking that as we need to find the **largest** palindrome, we should simply start testing with `a x b` = `999 * 999`, decrease `b` until `b = a`, whereupon we decrease `a` and reset `b` to `999`. Then, when we find a palindrome, we're done:
 
 - 999 x 999
@@ -30,6 +32,8 @@ Investigating 997x997 994009
 Investigating 996x999 995004 <--- this is larger than the result above! Won't work!
 ```
 
+### Method 2
+
 This got me thinking along another tack. Doing the calculations `a * b` in decreasing order of the **sum** of the two numbers (`a + b`) should work:
 
 ```
@@ -45,9 +49,11 @@ Investigating 996x999 995004 --- 1995 <--- this calculation is now done before..
 Investigating 997x997 994009 --- 1994      ...this one!
 ```
 
-In the end, I ended up running through all calculations using numbers between 100 and 999, storing palindromes I found in an array. This was pretty quick way of finding all 1,239 palindrome results.
+## Chosen Method
 
-I then sorted the resulting array, storing its sorted contents in another array, and then looked at the largest result, which was the last item in the final sorted array.
+Because I couldn't quite work out how to programatically implement Method 2, I ended up using the 'lazy' Method 1: Running through all calculations using numbers between 100 and 999, storing any found palindromes in an array. Turns out this was pretty quick way of finding all 1,239 palindrome results... although I'm sure Method 2 would be faster.
+
+I then sorted the resulting array into another array, being careful to use a [compare function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) (to make sure all numbers were sorted **numerically**) and then looked at the largest result, which was the last item in the final sorted array.
 
 ## Potential Improvements
 
