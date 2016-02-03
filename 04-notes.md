@@ -16,9 +16,9 @@ Started by thinking that as we need to find the **largest** palindrome, we shoul
 - 996 x 999, 996 x 998, 996 x 997, 996 x 996
 - 995 x 999... and so on...
 
-But this doesn't work, because we don't get results in decreasing order of their **sum.**
+But this doesn't work, because we don't get results in decreasing order of their **product.**
 
-If we could do the calculations `a*b` in decreasing order of their sum `(a+b)` however, it **would** work:
+If we could do the calculations `a*b` in decreasing order of their **sum** `(a+b)` however, this approach should work:
 
 ```
 Results from first batch of calculations re-ordered
