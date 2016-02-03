@@ -40,7 +40,7 @@ This got me thinking along another tack. Doing the calculations `a * b` in decre
 
 ```
 Results from first batch of calculations
-re-ordered depending on their SUM :arrow_down:
+re-ordered depending on their SUM \/
 
 Investigating 999x999 998001 --- 1998
 Investigating 998x999 997002 --- 1997
